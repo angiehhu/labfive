@@ -20,3 +20,19 @@ body {
     box-sizing: border-box;
     padding: 5px;
 }
+
+.contain {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 300px);
+}
+
+.picitem {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.item {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
