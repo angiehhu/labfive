@@ -4,11 +4,15 @@ h1 {
 .indexh1 {
     font-family: 'Montserrat', sans-serif;
 }
-.navigation {
+.top {
     background-color: rgb(117, 158, 117);
     text-align: center;
     border: 2px solid rgb(14, 32, 2);
+    list-style: none;
 }
 body {
     background-color:rgb(223, 216, 203);
+}
+.container {
+    display: inline-flex
 }
